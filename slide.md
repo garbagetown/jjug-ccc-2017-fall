@@ -212,7 +212,6 @@ t2.xlarge(16GB) で十分だが、t2.2xlarge(32GB) にスケールアップし�
 ---
 class: center, middle
 # Git, GitHub Flow
-
 <div class="timekeep">(ここで 10 分経過なら良いペース)</div>
 
 ???
@@ -272,7 +271,6 @@ GitHub Flow が重要なので、Git 単体で導入しても効果は弱いと�
 ---
 class: center, middle
 # AsciiDoc
-
 <div class="timekeep">(ここで 15 分経過ならよいペース)</div>
 
 ???
@@ -453,7 +451,7 @@ include される側の章・節・段落は Level 0 から書いてよい。
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 10.58.35a.png" width="100%" />
 
 ???
@@ -500,7 +498,7 @@ id が重複する場合は、`_2` のように suffix が付く。
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 11.37.52a.png" width="100%" />
 
 ???
@@ -544,8 +542,8 @@ ____
 
 
 ---
-## Sample
-<img src="./assets/Screen Shot 2017-11-16 at 11.38.09a.png" width="100%" />
+## example
+<img src="./assets/Screen Shot 2017-11-18 at 09.43.50a.png" width="100%" />
 
 
 ---
@@ -581,7 +579,7 @@ GFM は `*` または `_` で斜体、 `**` または `__` で太字。分かり
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 11.38.32a.png" width="100%" />
 
 
@@ -627,7 +625,7 @@ square, circle, disc など指定できるが、多用は禁物。
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 11.38.57.png" width="100%" />
 
 
@@ -699,7 +697,7 @@ Markdown のテーブルはアスキーアートのようになりやすく、
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 17.05.29a.png" width="100%" />
 
 ???
@@ -757,7 +755,7 @@ a|
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 17.36.36a.png" width="100%" />
 
 ???
@@ -804,7 +802,7 @@ CSV 以外に列デリミタをカスタマイズすることも可能。
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 17.41.42a.png" width="100%" />
 
 
@@ -872,7 +870,7 @@ Admonition は勧告、訓告といった意味。
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 17.54.14a.png" width="100%" />
 
 ???
@@ -920,7 +918,7 @@ include::../source/main.rb[lines="1,29..31,33..-1"]
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 17.54.21a.png" width="100%" />
 
 
@@ -937,7 +935,7 @@ end
 <1> URL mapping
 <2> Response block
 ```
-- ソースコードの説明に使う
+- ソースコードの説明に便利
 
 ???
 最初はこの記法を知らずにテーブルを使った。
@@ -946,7 +944,7 @@ end
 
 
 ---
-## Sample
+## example
 <img src="./assets/Screen Shot 2017-11-16 at 17.54.26a.png" width="100%" />
 
 ???
@@ -1072,15 +1070,14 @@ note right: validate Request
 
 
 ---
-## Sample
+## example
 <img src="./assets/sequence2.png" class="borderless center" width="80%" />
 
 
 ---
 class: center, middle
 # Atom
-
-<div class="timekeep">(ここで 35 分ならよいペース)</div>
+<div class="timekeep">(ここで 35 分経過なら良いペース)</div>
 
 
 ---
@@ -1132,8 +1129,7 @@ include したファイルの内容もプレビューしてくれる
 ---
 class: center, middle
 # Gradle
-
-<div class="timekeep">(ここで 37 分ならよいペース)</div>
+<div class="timekeep">(ここで 37 分経過なら良いペース)</div>
 
 
 ---
@@ -1246,8 +1242,7 @@ images    index.pdf
 ---
 class: center, middle
 # まとめ
-
-<div class="timekeep">(ここで 40 分ならよいペース)</div>
+<div class="timekeep">(ここで 40 分経過なら良いペース)</div>
 
 
 ---
