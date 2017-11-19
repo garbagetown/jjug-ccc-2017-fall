@@ -1,0 +1,7 @@
+= Paragraph
+
+A paragraph is just one or more lines of consecutive text.
+
+To begin a new paragraph, separate it 
+by at least one blank line. +
+Newlines within a paragraph are not displayed.

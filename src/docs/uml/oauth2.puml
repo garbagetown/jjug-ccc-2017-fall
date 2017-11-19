@@ -1,0 +1,54 @@
+participant ResourceOwner as RO
+participant WebBrowser as WB
+participant ClientApp as CA
+participant AuthorizationServer as AS
+participant ResourceServer as RS
+
+autonumber "[0]"
+
+RO -> WB : want protected resource
+activate RO
+activate WB
+
+WB -> CA : GET protected resource
+activate CA
+WB <-- CA : HTTP 302 redirect
+deactivate CA
+deactivate WB
+
+WB -> AS : GET authentication UI
+activate WB
+activate AS
+WB <-- AS : respond with authentication UI
+RO <-- WB : view authentication UI
+RO -> WB : enter credentials
+WB -> AS : POST the credentials
+AS -> AS : generate\nauthorization code
+WB <-- AS : HTTP 302 redirect to redirection endpoint
+deactivate AS
+deactivate WB
+
+WB -> CA : GET auth grant exchanged
+activate WB
+activate CA
+CA -> AS : POST request access token
+activate AS
+AS -> AS : generate\naccess token
+CA <-- AS : respond with access token
+deactivate AS
+WB <-- CA : HTTP 302 redirect
+deactivate CA
+deactivate WB
+
+WB -> CA : GET protected resource
+activate WB
+activate CA
+CA -> RS : GET protected resource (with access token)
+activate RS
+CA <-- RS : respond with the resource
+deactivate RS
+WB <-- CA : render resource in browser
+deactivate CA
+RO <-- WB : view the resource
+deactivate WB
+deactivate RO

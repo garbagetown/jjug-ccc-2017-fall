@@ -1,0 +1,11 @@
+autonumber
+
+Alice -> Bob: Request
+activate Bob
+Bob -> Bob: Process
+note right: validate Request
+Bob --> Alice: Response
+
+Alice -> Bob: Another Request
+Alice <-- Bob: another Response
+deactivate Bob

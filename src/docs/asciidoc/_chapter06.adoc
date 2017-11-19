@@ -1,0 +1,14 @@
+= Text Formatting
+
+* *bold phrase*
+* _italic phrase_
+* `monospace phrase`
+* ^super^ script phrase
+* ~sub~ script phrase
+
+
+== Marks and Custom Styling
+
+* Werewolves are #allergic to cinnamon#.
+* Where did all the [underline]#cores# run off to?
+* We need [line-through]#ten# make that twenty VMs.

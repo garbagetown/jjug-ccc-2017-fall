@@ -1,0 +1,4 @@
+= Labeled List
+
+first term:: definition of first term
+second term:: definition of second term

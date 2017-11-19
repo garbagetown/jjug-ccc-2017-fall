@@ -1,0 +1,74 @@
+= Tables
+
+|=== 
+| Cell in column 1, row 1 | Cell in column 2, row 1  
+| Cell in column 1, row 2 | Cell in column 2, row 2
+| Cell in column 1, row 3 | Cell in column 2, row 3
+|===
+
+
+== Columns
+
+[cols="40,60"]
+|===
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+
+== Column Formatting
+
+[cols="^20,.^20,^.^20,40a"]
+|===
+|align center | align middle | align center and middle
+|This cell can contain Asciidoc format
+
+* Unorderd List1
+* Unorderd List2
+|===
+
+
+== Cell Formatting
+
+[cols="30,30,40"]
+|===
+2+|colspan 2
+.2+|rowspan 2
+a|
+* Unorderd List1
+* Unorderd List2
+|Cell in column 2, row 2
+|===
+
+
+== Header Row/Footer Row
+
+[cols="40,60", options="header,footer"]
+|===
+|Name of Column 1
+|Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Footer in column 1, row 3
+|Footer in column 2, row 3
+|===
+
+
+== Delimiter-Separated Values
+
+[cols="30,30,40", options="header", format="csv"]
+|===
+Artist,Track,Genre
+Baauer,Harlem Shake,Hip Hop
+The Lumineers,Ho Hey,Folk Rock
+|===
+
+[cols="30,30,40", options="header", format="csv"]
+|===
+include::../csv/tracks.csv[]
+|===

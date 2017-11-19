@@ -1,0 +1,21 @@
+= Asciidoctor Diagram
+
+[plantuml, sequence, png]
+....
+Alice -> Bob: Request
+Bob -> Bob: Process
+Bob --> Alice: Response
+
+Alice -> Bob: Another Request
+Alice <-- Bob: another Response
+....
+
+[plantuml, sequence1, png]
+....
+include::../uml/sequence1.puml[]
+....
+
+[plantuml, sequence2, png]
+....
+include::../uml/sequence2.puml[]
+....

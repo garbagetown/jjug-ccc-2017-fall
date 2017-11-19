@@ -1,0 +1,8 @@
+Alice -> Bob: Request
+activate Bob
+Bob -> Bob: Process
+Bob --> Alice: Response
+
+Alice -> Bob: Another Request
+Alice <-- Bob: another Response
+deactivate Bob

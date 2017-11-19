@@ -1,0 +1,15 @@
+= Syntax Highlighting Source Code
+
+[source,ruby]  
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+[source,ruby]
+----
+include::../source/main.rb[lines="1,29..31,33..-1"]
+----

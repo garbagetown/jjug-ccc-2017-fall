@@ -1,0 +1,12 @@
+= Callouts
+
+[source,ruby]
+----
+require 'sinatra'
+
+get '/hi' do <1> <2>
+  "Hello World!"
+end
+----
+<1> URL mapping
+<2> Response block

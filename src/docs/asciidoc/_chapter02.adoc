@@ -1,0 +1,10 @@
+= Cross References
+
+== Section Title
+
+[[custom_id]]
+== Another Section Title
+
+* <<Section Title>>
+* <<_section_title>>
+* <<custom_id,alias text>>

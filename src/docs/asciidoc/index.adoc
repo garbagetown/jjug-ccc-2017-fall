@@ -1,0 +1,48 @@
+= Document Title (Level 0)
+:author: yuichiro umezawa
+:email: garbagetown@gmail.com
+:revnumber: 1.0 
+:revdate: 18th, Nov. 2017
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectanchors:
+:imagesdir: ../../../build/asciidoc/html5/images
+:icons: font
+:source-highlighter: coderay
+
+:leveloffset: +1
+include::_chapter01.adoc[]
+
+include::_chapter02.adoc[]
+
+include::_chapter03.adoc[]
+
+include::_chapter04.adoc[]
+
+include::_chapter05.adoc[]
+
+include::_chapter06.adoc[]
+
+include::_chapter07.adoc[]
+
+include::_chapter08.adoc[]
+
+include::_chapter09.adoc[]
+
+include::_chapter10.adoc[]
+
+include::_chapter11.adoc[]
+
+include::_chapter12.adoc[]
+
+include::_chapter13.adoc[]
+
+include::_chapter14.adoc[]
+
+include::_chapter15.adoc[]
+
+include::_chapter16.adoc[]
+
+include::_chapter17.adoc[]
+:leveloffset: -1
